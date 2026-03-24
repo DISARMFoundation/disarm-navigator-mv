@@ -1,5 +1,5 @@
 {
-	"collection_index_url": "/assets/index.json",
+    "collection_index_url": "assets/index.json",
 
     "versions": {
 		"enabled": false,
