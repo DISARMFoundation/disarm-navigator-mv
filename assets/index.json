@@ -1,0 +1,43 @@
+{
+  "id": "00000000-0000-0000-0000-000000000001",
+  "name": "DISARM Collections",
+  "description": "Collection index for DISARM framework STIX bundles (v1.6, v1.7, v2.0).",
+  "collections": [
+    {
+      "id": "x-disarm-collection--00000000-0000-0000-0000-000000000016",
+      "name": "DISARM v1.6",
+      "description": "DISARM Framework version 1.6",
+      "type": "collection",
+      "versions": [
+        {
+          "version": "1.6",
+          "url": "https://raw.githubusercontent.com/DISARMFoundation/DISARMframeworks/refs/heads/main/generated_files/DISARM_STIX/DISARM.json"
+        }
+      ]
+    },
+    {
+      "id": "x-disarm-collection--00000000-0000-0000-0000-000000000017",
+      "name": "DISARM v1.7",
+      "description": "DISARM Framework version 1.7",
+      "type": "collection",
+      "versions": [
+        {
+          "version": "1.7",
+          "url": "https://raw.githubusercontent.com/DISARMFoundation/disarm-stix-17/refs/heads/main/output/DISARM.json"
+        }
+      ]
+    },
+    {
+      "id": "x-disarm-collection--00000000-0000-0000-0000-000000000020",
+      "name": "DISARM v2.0",
+      "description": "DISARM Framework version 2.0",
+      "type": "collection",
+      "versions": [
+        {
+          "version": "2.0",
+          "url": "https://raw.githubusercontent.com/DISARMFoundation/disarm-stix-20-observable/refs/heads/main/output/DISARM.json"
+        }
+      ]
+    }
+  ]
+}
