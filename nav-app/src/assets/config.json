@@ -1,5 +1,5 @@
 {
-	"collection_index_url": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/master/index.json",
+	"collection_index_url": "/assets/index.json",
 
     "versions": {
 		"enabled": false,

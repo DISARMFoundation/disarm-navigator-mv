@@ -111,7 +111,7 @@ export class TabsComponent implements AfterViewInit {
     };
 
     public get latestDomains(): Domain[] {
-        return this.filterDomains(this.dataService.versions[0]);
+        return this.dataService.domains;
     }
 
     public get minimumSupportedVersion(): string {

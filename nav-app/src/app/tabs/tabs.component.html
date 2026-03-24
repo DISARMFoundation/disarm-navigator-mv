@@ -140,7 +140,7 @@
                     <mat-panel-description>Create a new empty layer</mat-panel-description>
                 </mat-expansion-panel-header>
 
-                <!-- Domain buttons for latest version -->
+                <!-- Domain buttons for all configured versions -->
                 <div class="button-group">
                     <button *ngFor="let domain of latestDomains" mat-raised-button (click)="newLayer(domain.id)">
                         {{ domain.name }}
