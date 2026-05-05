@@ -29,13 +29,25 @@
     },
     {
       "id": "x-disarm-collection--00000000-0000-0000-0000-000000000020",
-      "name": "DISARM v2.0",
-      "description": "DISARM Framework version 2.0",
+      "name": "DISARM v2.0 Observations",
+      "description": "DISARM Observations Framework version 2.0",
       "type": "collection",
       "versions": [
         {
           "version": "2.0",
           "url": "https://raw.githubusercontent.com/DISARMFoundation/disarm-stix-20-observable/refs/heads/main/output/DISARM.json"
+        }
+      ]
+    },
+    {
+      "id": "x-disarm-collection--00000000-0000-0000-0000-000000000021",
+      "name": "DISARM v2.0 Assessments",
+      "description": "DISARM Assessments Framework version 2.0",
+      "type": "collection",
+      "versions": [
+        {
+          "version": "2.0",
+          "url": "https://raw.githubusercontent.com/DISARMFoundation/DISARMframeworks-20-assessments/refs/heads/main/CODE/DISARM-STIX2/output/DISARM.json"
         }
       ]
     }
