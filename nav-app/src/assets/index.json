@@ -30,7 +30,7 @@
     {
       "id": "x-disarm-collection--00000000-0000-0000-0000-000000000020",
       "name": "DISARM v2.0 Observations",
-      "description": "DISARM Observations Framework Version 2.0",
+      "description": "DISARM Observations Framework version 2.0",
       "type": "collection",
       "versions": [
         {
