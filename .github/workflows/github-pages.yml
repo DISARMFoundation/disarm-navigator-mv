@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Build Navigator
-        run: npm run build -- --configuration production,googleAnalytics --aot=false --base-href=https://mitre-attack.github.io/attack-navigator/
+        run: npm run build -- --configuration production --aot=false --base-href=https://disarmfoundation.github.io/disarm-navigator-mv/
 
       - name: Download and extract Navigator v2
         uses: robinraju/release-downloader@v1.10
